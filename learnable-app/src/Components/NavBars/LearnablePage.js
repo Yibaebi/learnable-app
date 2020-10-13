@@ -4,26 +4,24 @@ import "./NavBars.css";
 function LearnableNavBar() {
   return (
     <nav className="learnable-nav-links">
-      <ul>
-        <li>
+        <button>
           <a href="/">Home</a>
-        </li>
-        <li>
+        </button>
+        <button>
           <a href="/Software">Software Developers</a>
-        </li>
-        <li>
+        </button>
+        <button>
           <a href="/Product">Product Designers</a>
-        </li>
-        <li>
+        </button>
+        <button>
           <a href="/Apply">Apply</a>
-        </li>
-        <li>
+        </button>
+        <button>
           <a href="/Journal">Journal</a>
-        </li>
-        <li>
+        </button>
+        <button>
           <a href="/Faq">FAQ</a>
-        </li>
-      </ul>
+        </button>
     </nav>
   );
 }

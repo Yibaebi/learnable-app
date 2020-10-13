@@ -8,6 +8,7 @@ function LearnableApp() {
     <div className="App">
       <header className="App-header">
         <LandingNavBar />
+        <LearnableNavBar />
       </header>
     </div>
   );

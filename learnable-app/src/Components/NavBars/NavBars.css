@@ -4,6 +4,7 @@
     grid-template-columns: 15% 40% 40%;
     padding: .3em;
     height: 5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .landing-nav-links {
@@ -26,12 +27,11 @@
 }
 
 .landing-nav-links ul li {
-    font-family: Roboto;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.9375em;
     font-style: normal;
     font-weight: 600;
     letter-spacing: 1.25px;
-    text-align: left;
 }
 
 .landing-nav-links ul a {
@@ -63,7 +63,7 @@
 }
 
 #dev-studio p {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-size: 1.05em;
     font-style: normal;
     font-weight: 400;
@@ -71,4 +71,36 @@
     letter-spacing: 0.02500000037252903em;
     text-align: left;
     color: #273043;
+}
+
+/* Learnable Nav Links */
+
+.learnable-nav-links{
+    font-family: 'Nunito', sans-serif;
+    background: #17255A;
+    height: 3rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.learnable-nav-links button{
+    margin: 0em 1em;
+    background-color: transparent;
+    border: none;
+}
+
+.learnable-nav-links a{
+    letter-spacing: 1.25px;
+    text-decoration: none;
+    text-decoration: underline;
+    color: #EEEEEE;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.learnable-nav-links a:active, .learnable-nav-links a:hover{
+    color: #EAC435;
 }
