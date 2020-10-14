@@ -1,12 +1,12 @@
 import React from "react";
-import "./Subscribe.css";
+import "../LearnablePage-Subscribe/Subscribe.css";
 import TopArrow from "../../Images/Go back to Top.svg"
 
 function Subscribe() {
   return (
     <section id="subscribe-container">
       <a href=""><img src={TopArrow} alt="Go up" /></a>
-      <div className="subscribe-section learnable">
+      <div className="subscribe-section" id="subscribe-section-landing">
         <h2>
           Stay up to date on what we are doing and new learning opportunities
         </h2>
