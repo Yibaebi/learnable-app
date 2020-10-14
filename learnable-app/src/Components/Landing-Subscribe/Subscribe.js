@@ -1,12 +1,12 @@
 import React from "react";
-import "./LearnablePageFooter.css";
+import "./Subscribe.css";
 import TopArrow from "../../Images/Go back to Top.svg"
 
 function Subscribe() {
   return (
-    <div id="subscribe-container">
+    <section id="subscribe-container">
       <a href=""><img src={TopArrow} alt="Go up" /></a>
-      <div id="subscribe-section">
+      <div className="subscribe-section learnable">
         <h2>
           Stay up to date on what we are doing and new learning opportunities
         </h2>
@@ -18,7 +18,7 @@ function Subscribe() {
           <button type="submit"> SUBSCRIBE </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 }
 

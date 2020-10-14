@@ -13,16 +13,19 @@
     align-self: center;
 }
 
-#subscribe-section {
+.subscribe-section {
     display: grid;
     grid-template-columns: 60% 1fr;
     justify-content: center;
     align-content: center;
     background-color: #EAC435;
 }
+.subscribe-section .landing{
+    background-color: #03CEA4;
+    ;
+}
 
-
-#subscribe-section h2 {
+.subscribe-section h2 {
     width: 70%;
     height: auto;
     font-family: 'Roboto', sans-serif;
