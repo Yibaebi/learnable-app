@@ -1,6 +1,6 @@
 .main-container {
     background-color: #EEEEEE;
-    
+
 }
 
 #genesys-opportunities {
@@ -47,22 +47,100 @@
     width: 467px;
 }
 
-#hero-image{
+#hero-image {
     width: 100%;
     display: grid;
     grid-template-columns: 10.41% 1fr;
 }
 
-#hero-image img:nth-child(2){
+#hero-image img:nth-child(2) {
     width: 100%;
 }
 
-#hero-image div{
+#hero-image div {
     display: flex;
     padding-top: 70%;
     justify-content: center;
 }
 
-#hero-image div a{
+#hero-image div a {
     height: fit-content;
+}
+
+.service-deliveries-container {
+    height: 780px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service-deliveries {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.service-deliveries-container h3 {
+    align-self: center;
+    width: 460px;
+    height: 132px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 110.19%;
+    letter-spacing: -0.5px;
+    color: #17255A;
+    margin-left: 100px;
+}
+
+#fig-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+#fig-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+    padding: 0;
+}
+
+#fig-1 figcaption {
+    align-self: center;
+    width: 157px;
+}
+
+#fig-1 a {
+    height: 74px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 110.19%;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #17255A;
+}
+
+#fig-2 a {
+    width: 148px;
+    height: 47px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 110.19%;
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #17255A;
+}
+
+#fig-2 figcaption {
+    width: 174px;
+}
+
+#fig-1 a:hover,
+#fig-2 a:hover {
+    opacity: 0.7;
 }

@@ -1,11 +1,10 @@
 
 #subscribe-container {
     background-color: #FFFFFF;
-    width: 95%;
+    width: 100%;
     height: 18em;
-    background-color: transparent;
     display: grid;
-    grid-template-columns: 7% 1fr;
+    grid-template-columns: 12% 1fr;
 }
 
 #subscribe-container a:first-child{
