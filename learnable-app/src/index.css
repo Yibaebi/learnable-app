@@ -1,10 +1,11 @@
-/* :root{
+:root {
+  --nunito: "Nunito", sans-serif;
+}
 
-} */
-
-html{
+html {
   font-weight: 16px;
 }
+
 body {
   margin: 0;
 }
@@ -12,4 +13,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.image-cutout {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-cutout img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #03CEA4;
+  text-align: center;
 }

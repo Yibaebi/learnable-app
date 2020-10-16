@@ -1,0 +1,256 @@
+.learnable-homepage {
+    background-color: #EEEEEE;
+}
+
+#notification {
+    background: #EAC435;
+    height: 15.125rem;
+}
+
+#notification-main {
+    color: #17255A;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#notification-1 p {
+    font-family: "Nunito";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.25px;
+    height: 2.125rem;
+    width: 31.8125rem;
+}
+
+#notification-1 h4,
+#notification-2 h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.3125rem;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+#notification-1 {
+    align-self: flex-start;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#notification-2 {
+    align-self: center;
+}
+
+#notification-2 h4 {
+    text-decoration: underline;
+}
+
+#notification-2 a:link,
+#notification-2 a:visited {
+    font-size: 17px;
+    text-decoration: none;
+    color: #17255A;
+}
+
+#notification-2 a:hover {
+    text-decoration: none;
+    color: #EAC435;
+    background-color: #17255A;
+}
+
+#hero.learnable-homepage {
+    height: 76.5625rem;
+}
+
+#hero-intro.learnable-homepage-hero h1 {
+    padding-top: 1.1em;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 6.7rem;
+    letter-spacing: -1.5px;
+    text-align: left;
+    font-size: 6rem;
+}
+
+#hero-intro.learnable-homepage-hero p {
+    height: 81px;
+    width: 321px;
+}
+
+
+.learnable-hero-media {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EEEEEE;
+}
+
+#learnable-hero-media {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+}
+
+#learnable-hero-media div {
+    padding-top: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 40%;
+}
+
+#learnable-hero-media img:nth-child(2) {
+    height: 460px;
+    width: 100%;
+}
+
+#explore-options {
+    justify-self: flex-end;
+    position: absolute;
+    left: 55%;
+    top: 41.625rem;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+#explore-options div {
+    height: 15.625rem;
+    width: 15.625rem;
+    border-radius: 7.8125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#explore-options div p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #273043;
+    width: fit-content;
+    padding: 2px;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+#explore-options div h5 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+#explore-options div a {
+    text-decoration: none;
+    color: #17255A;
+    text-decoration: underline;
+}
+
+#explore-options div:nth-child(1) img {
+    padding-left: .4rem;
+}
+
+#explore-options div:nth-child(1) {
+    background: #03CEA4;
+    margin-right: .5rem;
+}
+
+#explore-options div:nth-child(2) {
+    background: #17255A;
+    margin-left: .5rem;
+}
+
+#explore-options div:nth-child(2) p,
+#explore-options div:nth-child(2) h5 a {
+    color: #EEEEEE;
+}
+
+#explore-options div:nth-child(2) img {
+    padding-left: .4rem;
+}
+
+
+/* Hero Statistics */
+#hero-statistics {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+#statistics {
+    align-self: center;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#hero-statistics .item {
+    background-color: transparent;
+    width: fit-content;
+}
+
+#hero-statistics .item p {
+    width: 134px;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    padding-top: 1rem;
+}
+
+#hero-statistics .item p:first-of-type {
+    width: 160px;
+}
+
+#hero-statistics .item h3 {
+    width: 70px;
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110.19%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #03CEA4;
+}
+
+/* We make people great */
+#we-make-people {
+    background-color: white;
+}
+
+#we-make-people-desc{
+}

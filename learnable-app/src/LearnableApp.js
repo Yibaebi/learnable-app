@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingNavBar from './Components/NavBars/LandingPage';
 import LandingPage from "./Components/Pages/Landing Page/LandingPage";
+import LearnableHome from "./Components/Pages/Learnable Page/Home"
 
 
 
@@ -9,7 +10,8 @@ function LearnableApp() {
     <div className="App">
       <header className="App-header">
         <LandingNavBar />
-        <LandingPage />
+        {/* <LandingPage /> */}
+        <LearnableHome />
       </header>
     </div>
   );
