@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
       className: [
         "main-subsection-container",
         "main-subsection-container-reverse",
-        "main-subsection-container cadet",
+        "main-subsection-container cadet knowledge",
       ],
       header: ["Learnable", "Agora", "StartZone", "The best team in the world"],
       text: [

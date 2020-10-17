@@ -26,13 +26,11 @@
   padding-left: 10px;
 }
 
-.main-subsection {
-  width: 550px;
-  height: 182px;
-  padding: 30px;
-}
-
-.main-subsection h3 {
+.main-subsection h3,
+.main-subsection-desc h3,
+#we-make-people h3,
+#build-software-1 h3 {
+  width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -41,12 +39,14 @@
   letter-spacing: 0em;
   text-align: left;
   color: #273043;
+  text-transform: capitalize;
 }
 
-.main-subsection p {
-  font-family: "Nunito", sans-serif;
+.main-subsection p,
+#we-make-people p,
+.main-subsection-desc p {
   height: 41px;
-  width: 550px;
+  width: 80%;
   color: #273043;
   font-size: 15px;
   line-height: 24px;
@@ -54,7 +54,25 @@
   margin-bottom: 40px;
 }
 
-.main-subsection button {
+#build-software-1 p {
+  width: 80%;
+  color: #273043;
+  font-size: 15px;
+  letter-spacing: 0.25px;
+}
+
+#build-software-1 p:first-of-type {
+  width: 30%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 110.19%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.main-subsection button,
+#build-software-1 button, button {
   font-family: "Nunito", sans-serif;
   border: none;
   font-size: 15px;
@@ -70,11 +88,12 @@
   text-transform: uppercase;
 }
 
-.main-subsection button:hover {
+.main-subsection button:hover, button:hover {
   opacity: 0.6;
 }
 
 .main-subsection-container.cadet {
+  padding: 0 2rem;
   background: #17255A;
 
 }
@@ -98,7 +117,20 @@
   text-align: left;
 }
 
+.main-subsection-container.cadet.knowledge p {
+  height: fit-content;
+}
+
 .main-subsection-container.cadet h3,
 .main-subsection-container.cadet p {
   color: #EEEEEE;
+}
+
+/* Learn from experts */
+
+.main-subsection-container.experts {
+  background-color: transparent;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 60% 1fr;
 }

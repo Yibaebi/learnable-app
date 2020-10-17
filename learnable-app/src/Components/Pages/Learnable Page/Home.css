@@ -1,5 +1,7 @@
 .learnable-homepage {
     background-color: #EEEEEE;
+    height: fit-content;
+    padding-bottom: 0;
 }
 
 #notification {
@@ -249,8 +251,322 @@
 
 /* We make people great */
 #we-make-people {
+    height: 652px;
+    background-color: #ffffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#we-make-people-desc,
+.main-subsection.eligible {
+    padding-left: 10%;
+    height: 60%;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    align-items: center;
+}
+
+.main-subsection.eligible {
+    display: grid;
+    height: 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-left: 4rem;
+}
+
+.main-subsection.eligible h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#we-make-people-desc h3 {
+    padding: 0;
+    margin: 0;
+}
+
+#white-bg {
     background-color: white;
 }
 
-#we-make-people-desc{
+/* Learning can be fun */
+
+.main-subsection-container.fun {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 45% 1fr;
+}
+
+/* Learn from experts */
+#experts-2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+#experts-2 h2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 110.19%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    color: #273043;
+}
+
+.main-subsection-container.experts #experts-1 {
+    padding: 20% 0;
+    background-color: transparent;
+    align-self: center;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.experts-item {
+    margin-bottom: 20px;
+    width: 210.85px;
+    height: 270.19px;
+}
+
+.experts-item p,
+.experts-item h6 {
+    padding: 3px;
+    margin: 3px;
+}
+
+/* Learn to build */
+.main-subsection-container.build-software {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50%);
+}
+
+#build-software-1 {
+    height: 30%;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#build-software-2 {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#build-software-2 .item {
+    height: 339px;
+    width: 310px;
+}
+
+.cadet {
+    background-color: #17255A;
+    color: #EEEEEE;
+}
+
+.green {
+    background-color: #03CEA4;
+    color: #EEEEEE;
+}
+
+.saffron {
+    background: #EAC435;
+    color: #17255A;
+}
+
+.purple {
+    background-color: #2D1E2F;
+    ;
+    color: #EEEEEE;
+}
+
+.metal {
+    background-color: #273043;
+    ;
+    color: #FFFEFE;
+}
+
+.orange {
+    background: #E13F29;
+    color: #EEEEEE;
+}
+
+#build-software-2 .item h4 {
+    padding: 20px;
+    height: 111px;
+    width: 254px;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 110.19%;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+}
+
+/* Accordion */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    font-family: 'Roboto', sans-serif;
+    width: fit-content;
+    height: 26px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 110.19%;
+    text-decoration-line: underline;
+    color: #273043;
+    border-bottom: 1px solid #CECDCD;
+    padding-bottom: 1.2rem;
+}
+
+.accordion img {
+    margin-left: 1rem;
+    margin-bottom: .3rem
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    opacity: 0.7;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.showPanel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.faq-section {
+    height: fit-content;
+}
+
+#faq {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+#faq h2 {
+    align-self: flex-start;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+#faq div {
+    align-self: center;
+}
+
+
+
+/* Journal */
+
+.journal-section {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 0;
+}
+.journal-section p {
+    width: 156px;
+    height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.4px;
+    color: #273043;
+    margin-top: 0px;
+}
+
+.journal-section > button{
+    align-self: flex-start;
+    margin: 60px 0px 86px 150px 
+}
+.journal-section > h2{
+    align-self: flex-start;
+    margin: 91px 0px 0px 100px 
+}
+.journal-item {
+    padding-top: 10px;
+    margin: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.journal-item h4{
+    margin: 1rem 1rem;
+    margin-left: 0em;
+    padding-bottom: 0;
+    height: fit-content;
+}
+.journal-copy-copy img{
+    width: 90%
+}
+
+#journal-copy {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Mentions */
+
+.mentioned-in{
+    background-color: #FFFEFE;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    padding: 70px 0px;
+}
+
+.mentioned-in h4{
+    height: fit-content;
+    text-decoration: underline;
+}
+
+.mentioned-in-logos{
+    display: flex;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }

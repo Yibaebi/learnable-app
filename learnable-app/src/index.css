@@ -14,16 +14,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#transparent {
+  background-color: transparent;
+}
+
+#Vivid-Tangelo {
+  background-color: #F5772F;
+  color: #EEEEEE;
+}
+
+#Vivid-Tangelo p,
+#Vivid-Tangelo h3 {
+  color: #EEEEEE;
+}
+
+#Vivid-Tangelo h4 {
+  color: #FFFEFE;
+}
+
+.main-subsection-desc {
+  padding: 1rem;
+  padding-left: 10%;
+}
+
 .image-cutout {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.image-cutout img{
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
+
+.image-cutout img {
+  margin-top: 4rem;
+  height: 28.25rem;
+  width: 28.25rem;
+  border-radius: 14.13rem;
   background-color: #03CEA4;
   text-align: center;
+}
+
+h6,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+.journal-section h4 {
+  width: 220px;
+  height: 242px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 110.19%;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  color: #273043;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 110.19%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #273043;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 110.19%;
+  color: #273043;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  color: #273043;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
