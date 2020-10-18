@@ -4,7 +4,8 @@ import LandingPage from "./Components/Pages/Landing Page/LandingPage";
 import LearnableHome from "./Components/Pages/Learnable Page/Home";
 import SoftwareDeveloper from "./Components/Pages/Learnable Page/SoftwareDeveloper";
 import ProductDesigner from "./Components/Pages/Learnable Page/ProductDesigner";
-import Apply from "./Components/Pages/Learnable Page/Apply"
+import Apply from "./Components/Pages/Learnable Page/Apply";
+import Journal from "./Components/Pages/Learnable Page/Journal";
 
 
 
@@ -17,7 +18,9 @@ function LearnableApp() {
         {/* <LearnableHome /> */}
         {/* <SoftwareDeveloper /> */}
         {/* <ProductDesigner /> */}
-        <Apply />
+        {/* <Apply /> */}
+
+        <Journal />
       </header>
     </div>
   );

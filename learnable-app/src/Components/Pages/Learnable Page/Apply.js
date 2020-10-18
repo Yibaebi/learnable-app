@@ -39,7 +39,7 @@ class Apply extends React.Component {
             <section id="we-expect">
               <div id="we-expect-image-container">
                 <img
-                  src={require("../../../Images/Learnable product designer page/Photo.png")}
+                  src={require("../../../Images/Apply Your Knowledge Page/Photo.png")}
                   alt="profile"
                 />
               </div>
