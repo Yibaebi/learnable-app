@@ -20,7 +20,7 @@ function Footer() {
             <a href="/Faq"></a>FAQ
           </button>
         </section>
-        <section id="contact-us">
+        <section id="contact-us" className="mobile-hidden">
           <p>
             Our Local Campus center: Kilometer 7, Enugu/Port Harcourt,
             Expressway, Centenary City, Enugu. Nigeria.
@@ -41,15 +41,39 @@ function Footer() {
             </button>
           </div>
         </section>
+        <section id="contact-us" className="desktop-hidden">
+          <p>
+            Our Local Campus center: Kilometer 7, Enugu/Port Harcourt,
+            Expressway, Centenary City, Enugu. Nigeria.
+          </p>
+          <button>
+            <a href="/Faq"></a>Get in touch
+          </button>
+        </section>
       </div>
       <div id="social-media-copyright">
         <section id="social-media-container">
-          <a href="#"><img src={require("../../Icons/Vector.svg")} alt="" /></a>
-          <a href="#"><img src={require("../../Icons/linkedin 1.svg")} alt="" /></a>
-          <a href="#"><img src={require("../../Icons/instagram 1.svg")} alt="" /></a>
-          <a href="#"><img src={require("../../Icons/Vector3.svg")} alt="" /></a>
-          <a href="#"><img src={require("../../Icons/Vector4.svg")} alt="" /></a>
-          <a href="#"><img src={require("../../Icons/youtube-logotype 1.svg")} alt="" /></a>
+          <a href="#">
+            <img src={require("../../Icons/Vector.svg")} alt="facebook" />
+          </a>
+          <a href="#">
+            <img src={require("../../Icons/linkedin 1.svg")} alt="linkedin" />
+          </a>
+          <a href="#">
+            <img src={require("../../Icons/instagram 1.svg")} alt="instagram" />
+          </a>
+          <a href="#">
+            <img src={require("../../Icons/Vector3.svg")} alt="vimeo" />
+          </a>
+          <a href="#">
+            <img src={require("../../Icons/Vector4.svg")} alt="twitter" />
+          </a>
+          <a href="#">
+            <img
+              src={require("../../Icons/youtube-logotype 1.svg")}
+              alt="youtube"
+            />
+          </a>
         </section>
         <section id="copyright">
           <a href="#">&copy; Genesys 2020</a>

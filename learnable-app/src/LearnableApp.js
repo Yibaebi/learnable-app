@@ -1,5 +1,6 @@
 import React from 'react';
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/LearnablePage-Subscribe/Subscribe";
 import LandingNavBar from './Components/NavBars/LandingPage';
 import LandingPage from "./Components/Pages/Landing Page/LandingPage";
 import LearnableHome from "./Components/Pages/Learnable Page/Home";
@@ -15,14 +16,13 @@ function LearnableApp() {
   return (
     <div className="App">
       <header className="App-header">
-        <Footer />
+        {/* <Footer /> */}
         {/* <LandingNavBar /> */}
-        {/* <LandingPage /> */}
+        <LandingPage />
         {/* <LearnableHome /> */}
         {/* <SoftwareDeveloper /> */}
         {/* <ProductDesigner /> */}
         {/* <Apply /> */}
-
         {/* <Journal /> */}
 
         {/* <Faq /> */}

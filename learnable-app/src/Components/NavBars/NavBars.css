@@ -1,120 +1,172 @@
-.nav-links {
-    background-color: #FFFFFF;
-    display: grid;
-    grid-template-columns: 15% 40% 40%;
-    padding: .3em;
-    height: 5rem;
-    font-family: 'Nunito', sans-serif;
-    width: 100%;
+@media only screen and (max-width: 375px) {
+    .nav-links {
+        height: 100vh;
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing-nav-links {
+        padding-right: 29px;
+        background-color: #ffffff;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-nav-links ul {
+        height: 100%;
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .landing-nav-links ul li {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110.19%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.25px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+    }
+    .landing-nav-links ul a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #273043;
+    }
+    .landing-nav-links img{
+        align-self: flex-end;
+    }
 }
 
-.landing-nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+@media only screen and (min-width: 376px) {
+    .nav-links {
+        background-color: #FFFFFF;
+        display: grid;
+        grid-template-columns: 15% 40% 40%;
+        padding: .3em;
+        height: 5rem;
+        font-family: 'Nunito', sans-serif;
+        width: 100%;
+    }
 
-.nav-links img {
-    align-self: center;
-    justify-self: center;
-}
+    .landing-nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.landing-nav-links ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-}
+    .nav-links img {
+        align-self: center;
+        justify-self: center;
+    }
 
-.landing-nav-links ul li {
-    font-family: 'Nunito', sans-serif;
-    font-size: 0.9375em;
-    font-style: normal;
-    font-weight: 600;
-    letter-spacing: 1.25px;
-}
+    .landing-nav-links ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
 
-.landing-nav-links ul a {
-    text-decoration: none;
-    color: #273043;
-}
+    .landing-nav-links ul li {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9375em;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 1.25px;
+    }
 
-.landing-nav-links ul a:active {
-    color: #F5772F;
-}
+    .landing-nav-links ul a {
+        text-decoration: none;
+        color: #273043;
+    }
 
-#links-1 {
-    text-transform: uppercase;
-}
+    .landing-nav-links ul a:active {
+        color: #F5772F;
+    }
 
-#dev-studio {
-    align-self: center;
-    justify-self: flex-end;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 16.8125em;
-    height: 2.25em;
-}
+    #links-1 {
+        text-transform: uppercase;
+    }
 
-#dev-studio button{
-    height: 100%;
-    padding: 0px 10px 0px 12px;
-    border: 1px solid #17255A;
-    text-transform: uppercase;
-    background-color: white;
-    border-radius: 4px;
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-}
+    #dev-studio {
+        align-self: center;
+        justify-self: flex-end;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 16.8125em;
+        height: 2.25em;
+    }
 
-#dev-studio p{
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 162%;
-    letter-spacing: 0.4px;
-    color: #273043;
-}
+    #dev-studio button {
+        height: 100%;
+        padding: 0px 10px 0px 12px;
+        border: 1px solid #17255A;
+        text-transform: uppercase;
+        background-color: white;
+        border-radius: 4px;
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+    }
 
-/* Learnable Nav Links */
-#learnable-nav-container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+    #dev-studio p {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 162%;
+        letter-spacing: 0.4px;
+        color: #273043;
+    }
 
-.learnable-nav-links {
-    width: 100%;
-    font-family: 'Nunito', sans-serif;
-    background: #17255A;
-    height: 3rem;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    /* Learnable Nav Links */
+    #learnable-nav-container {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 
-.learnable-nav-links button {
-    margin: 0em 1em;
-    background-color: transparent;
-    border: none;
-}
+    .learnable-nav-links {
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        background: #17255A;
+        height: 3rem;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.learnable-nav-links a {
-    letter-spacing: 1.25px;
-    text-decoration: none;
-    text-decoration: underline;
-    color: #EEEEEE;
-    text-transform: uppercase;
-    align-self: center;
-}
+    .learnable-nav-links button {
+        margin: 0em 1em;
+        background-color: transparent;
+        border: none;
+    }
 
-.learnable-nav-links a:active,
-.learnable-nav-links a:hover {
-    color: #EAC435;
+    .learnable-nav-links a {
+        letter-spacing: 1.25px;
+        text-decoration: none;
+        text-decoration: underline;
+        color: #EEEEEE;
+        text-transform: uppercase;
+        align-self: center;
+    }
+
+    .learnable-nav-links a:active,
+    .learnable-nav-links a:hover {
+        color: #EAC435;
+    }
 }

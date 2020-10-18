@@ -44,7 +44,7 @@ code {
   align-items: center;
 }
 
-.image-cutout > img {
+.image-cutout>img {
   margin-top: 4rem;
   height: 28.25rem;
   width: 28.25rem;
@@ -107,3 +107,19 @@ p {
   text-align: left;
 }
 
+@media screen and (min-width: 376px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 100vw;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
