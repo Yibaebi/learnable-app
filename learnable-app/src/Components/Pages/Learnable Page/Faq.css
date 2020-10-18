@@ -1,0 +1,14 @@
+#faq-header{
+    margin-top: 119px;
+    margin-bottom: 119px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#faq-header h2{
+    height: 100%;
+    align-self: center;
+    justify-self: flex-end;
+}

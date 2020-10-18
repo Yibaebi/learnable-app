@@ -37,23 +37,23 @@ function Footer() {
               our product team
             </p>
             <button>
-              <a href="/Faq"></a>Head to DevStudio
+              <a href="#"></a>Head to DevStudio
             </button>
           </div>
         </section>
       </div>
       <div id="social-media-copyright">
         <section id="social-media-container">
-          <a href=""><img src={require("../../Icons/Vector.svg")} alt="" /></a>
-          <a href=""><img src={require("../../Icons/linkedin 1.svg")} alt="" /></a>
-          <a href=""><img src={require("../../Icons/instagram 1.svg")} alt="" /></a>
-          <a href=""><img src={require("../../Icons/Vector3.svg")} alt="" /></a>
-          <a href=""><img src={require("../../Icons/Vector4.svg")} alt="" /></a>
-          <a href=""><img src={require("../../Icons/youtube-logotype 1.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/Vector.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/linkedin 1.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/instagram 1.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/Vector3.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/Vector4.svg")} alt="" /></a>
+          <a href="#"><img src={require("../../Icons/youtube-logotype 1.svg")} alt="" /></a>
         </section>
         <section id="copyright">
-          <a href="">&copy; Genesys 2020</a>
-          <a href="">Privacy Statement</a>
+          <a href="#">&copy; Genesys 2020</a>
+          <a href="#">Privacy Statement</a>
         </section>
       </div>
     </footer>
