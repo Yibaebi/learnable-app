@@ -30,7 +30,10 @@
     font-size: 60px;
     line-height: 110.19%;
     letter-spacing: -0.5px;
+}
 
+#learnable-hero-quote.tangelo {
+    color: #F5772F;
 }
 
 #learnable-hero-image {
@@ -88,6 +91,19 @@
     justify-content: flex-start;
 }
 
+#we-expect-text caption {
+    width: 523px;
+    height: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #17255A;
+}
+
 #we-expect-text h3 {
     width: fit-content;
     height: 44px;
@@ -99,3 +115,6 @@
     color: #273043;
 }
 
+#product-image {
+    background-color: #F5772F;
+}

@@ -3,6 +3,8 @@ import LandingNavBar from './Components/NavBars/LandingPage';
 import LandingPage from "./Components/Pages/Landing Page/LandingPage";
 import LearnableHome from "./Components/Pages/Learnable Page/Home";
 import SoftwareDeveloper from "./Components/Pages/Learnable Page/SoftwareDeveloper";
+import ProductDesigner from "./Components/Pages/Learnable Page/ProductDesigner";
+import Apply from "./Components/Pages/Learnable Page/Apply"
 
 
 
@@ -13,7 +15,9 @@ function LearnableApp() {
         {/* <LandingNavBar /> */}
         {/* <LandingPage /> */}
         {/* <LearnableHome /> */}
-        <SoftwareDeveloper />
+        {/* <SoftwareDeveloper /> */}
+        {/* <ProductDesigner /> */}
+        <Apply />
       </header>
     </div>
   );

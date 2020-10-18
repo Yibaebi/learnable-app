@@ -44,7 +44,7 @@ code {
   align-items: center;
 }
 
-.image-cutout img {
+.image-cutout > img {
   margin-top: 4rem;
   height: 28.25rem;
   width: 28.25rem;
@@ -52,6 +52,8 @@ code {
   background-color: #03CEA4;
   text-align: center;
 }
+
+
 
 h6,
 h1,
@@ -104,3 +106,4 @@ p {
   letter-spacing: 0.5px;
   text-align: left;
 }
+
