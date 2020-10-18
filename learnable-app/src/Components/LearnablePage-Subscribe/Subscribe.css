@@ -15,6 +15,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: 80px;
     }
 
     .subscribe-section h2 {
@@ -103,6 +104,11 @@
         letter-spacing: 0.4000000059604645px;
         text-align: left;
         text-decoration: underline;
+    }
+
+    #subscribe-section-landing {
+        background-color: #03CEA4;
+        
     }
 
 }

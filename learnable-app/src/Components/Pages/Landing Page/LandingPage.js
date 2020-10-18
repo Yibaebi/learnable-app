@@ -30,7 +30,7 @@ class LandingPage extends React.Component {
 
       alt: ["Learnable", "Agora", "StartZone"],
       buttonTitle: ["Learn More", "See Team"],
-    }
+    };
   }
   render() {
     const { className, header, text, src, alt, buttonTitle } = this.state;
@@ -43,16 +43,26 @@ class LandingPage extends React.Component {
                 Genesys provides opportunities for young Nigerian techies and
                 opportunities to grow and innovate.
               </h1>
-              <p>
+              <p className="mobile-hidden">
+                We understand that opportunities are scarce in these parts. We
+                are either creating or exposing our people to these
+                opportunities.
+              </p>
+              <div className="desktop-hidden">
+                  <img
+                    src={require("../../../Images/Mobile - landing/Rectangle 36.png")}
+                    alt="Go down"
+                  />
+              </div>
+              <p className="desktop-hidden">
                 We understand that opportunities are scarce in these parts. We
                 are either creating or exposing our people to these
                 opportunities.
               </p>
             </section>
-
-            <section id="hero-image">
+            <section id="hero-image" className="mobile-hidden">
               <div>
-                <a href="">
+                <a href="#">
                   <img
                     src={require("../../../Images/Landing page/Skip to Next Section.jpg")}
                     alt="Go down"
@@ -64,12 +74,12 @@ class LandingPage extends React.Component {
                 alt="genesys opportunity image"
               />
             </section>
-          </div>
-          <MainSubsection
+          </div> 
+           <MainSubsection
             className={className[0]}
             header={header[0]}
             text={text[0]}
-            src={src[0]}
+            src={require("../../../Images/Mobile - landing/Photo-3.png")}
             alt={alt[0]}
             buttonTitle={buttonTitle[0]}
           />
@@ -77,15 +87,16 @@ class LandingPage extends React.Component {
             className={className[1]}
             header={header[1]}
             text={text[1]}
-            src={src[1]}
+            src={require("../../../Images/Mobile - landing/Photo-1.png")}
             alt={alt[1]}
             buttonTitle={buttonTitle[0]}
           />
+
           <MainSubsection
             className={className[0]}
             header={header[2]}
             text={text[2]}
-            src={src[2]}
+            src={require("../../../Images/Mobile - landing/Photo-1.png")}
             alt={alt[2]}
             buttonTitle={buttonTitle[0]}
           />
@@ -99,8 +110,24 @@ class LandingPage extends React.Component {
                 <figcaption>
                   <a href="/Genesys Ignite">Genesys Ignite</a>
                 </figcaption>
+                <img
+                  src={require("../../../Images/Landing page/Rectangle 38.jpg")}
+                  alt="service deliveries"
+                  className="desktop-hidden"
+                />
+                <figcaption className="desktop-hidden">
+                  <a href="/CodeVille">CodeVille</a>
+                </figcaption>
+                <img
+                  src={require("../../../Images/Landing page/Rectangle 38-1.jpg")}
+                  alt="service deliveries"
+                  className="desktop-hidden"
+                />
+                <figcaption className="desktop-hidden">
+                  <a href="/Pink">Pink summer of code</a>
+                </figcaption>
               </figure>
-              <figure id="fig-2">
+              <figure id="fig-2" className="mobile-hidden">
                 <div>
                   <img
                     src={require("../../../Images/Landing page/Rectangle 38.jpg")}
@@ -123,11 +150,11 @@ class LandingPage extends React.Component {
             </div>
             <h3>Other things we do</h3>
           </section>
-          <MainSubsection
+         <MainSubsection
             className={className[2]}
             header={header[3]}
             text={text[3]}
-            src={src[3]}
+            src={require("../../../Images/Mobile - landing/Photo.png")}
             alt={alt[3]}
             buttonTitle={buttonTitle[1]}
           />
