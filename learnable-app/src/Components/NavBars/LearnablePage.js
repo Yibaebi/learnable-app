@@ -1,9 +1,12 @@
 import React from "react";
 import "./NavBars.css";
+import LandingNavBar from "./LandingPage"
 
 function LearnableNavBar() {
   return (
-    <nav className="learnable-nav-links">
+    <nav id="learnable-nav-container">
+      <LandingNavBar />
+      <nav className="learnable-nav-links">
         <button>
           <a href="/">Home</a>
         </button>
@@ -22,6 +25,7 @@ function LearnableNavBar() {
         <button>
           <a href="/Faq">FAQ</a>
         </button>
+      </nav>
     </nav>
   );
 }

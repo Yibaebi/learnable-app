@@ -1,5 +1,4 @@
 .nav-links {
-    position: fixed;
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 15% 40% 40%;
@@ -41,6 +40,10 @@
     color: #273043;
 }
 
+.landing-nav-links ul a:active {
+    color: #F5772F;
+}
+
 #links-1 {
     text-transform: uppercase;
 }
@@ -57,28 +60,34 @@
 
 #dev-studio button {
     height: 100%;
-    padding: 0px 10px 0px 12px ;
+    padding: 0px 10px 0px 12px;
     border: 1px solid #17255A;
     text-transform: uppercase;
     background-color: white;
     border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 #dev-studio p {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.05em;
     font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0.02500000037252903em;
-    text-align: left;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 162%;
+    letter-spacing: 0.4px;
     color: #273043;
 }
 
 /* Learnable Nav Links */
-
-.learnable-nav-links{
+#learnable-nav-container {
     position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.learnable-nav-links {
     width: 100%;
     font-family: 'Nunito', sans-serif;
     background: #17255A;
@@ -90,13 +99,13 @@
     text-align: center;
 }
 
-.learnable-nav-links button{
+.learnable-nav-links button {
     margin: 0em 1em;
     background-color: transparent;
     border: none;
 }
 
-.learnable-nav-links a{
+.learnable-nav-links a {
     letter-spacing: 1.25px;
     text-decoration: none;
     text-decoration: underline;
@@ -105,6 +114,7 @@
     align-self: center;
 }
 
-.learnable-nav-links a:active, .learnable-nav-links a:hover{
+.learnable-nav-links a:active,
+.learnable-nav-links a:hover {
     color: #EAC435;
 }
