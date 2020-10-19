@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
   .main-subsection-container, .main-subsection-container-reverse {
     height: 629px;
     width: 100vw;
@@ -60,7 +60,7 @@
     background-color: transparent;
     text-transform: uppercase;
   }
-}
+} */
 
 @media only screen and (min-width: 376px) {
   .main-subsection-container {

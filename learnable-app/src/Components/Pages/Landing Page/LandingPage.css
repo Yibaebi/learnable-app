@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     .main-container {
         background-color: #EEEEEE;
         height: fit-content;
@@ -114,7 +114,7 @@
     }
 
     .main-subsection-container.cadet h3 {
-        
+
         height: 74px;
         font-style: normal;
         font-weight: 900;
@@ -127,12 +127,15 @@
         text-transform: capitalize;
         color: #FFFFFF;
     }
-}
+} */
 
 @media only screen and (min-width: 376px) {
+    .desktop-hidden {
+        display: none;
+    }
+
     .main-container {
         background-color: #EEEEEE;
-
     }
 
     #genesys-opportunities {
@@ -201,8 +204,10 @@
 
     .service-deliveries-container {
         height: 780px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
 
     .service-deliveries {
@@ -224,19 +229,19 @@
     }
 
     #fig-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
+        display: flex;
+        justify-content: space-between;
         align-content: center;
         margin-bottom: 0;
     }
 
     #fig-2 {
+        width: 94%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 0;
-        padding: 0;
     }
+
+    
 
     #fig-1 figcaption {
         align-self: center;

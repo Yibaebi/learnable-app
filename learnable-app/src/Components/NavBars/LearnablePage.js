@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBars.css";
-import LandingNavBar from "./LandingPage"
+import LandingNavBar from "./LandingPage";
+import { NavLink } from "react-router-dom";
 
 function LearnableNavBar() {
   return (
@@ -8,22 +9,22 @@ function LearnableNavBar() {
       <LandingNavBar />
       <nav className="learnable-nav-links">
         <button>
-          <a href="/">Home</a>
+          <NavLink to="/Learnablehome">Home</NavLink>
         </button>
         <button>
-          <a href="/Software">Software Developers</a>
+          <NavLink to="/Software">Software Developers</NavLink>
         </button>
         <button>
-          <a href="/Product">Product Designers</a>
+          <NavLink to="/Product">Product Designers</NavLink>
         </button>
         <button>
-          <a href="/Apply">Apply</a>
+          <NavLink to="/Apply">Apply</NavLink>
         </button>
         <button>
-          <a href="/Journal">Journal</a>
+          <NavLink to="/Journal">Journal</NavLink>
         </button>
         <button>
-          <a href="/Faq">FAQ</a>
+          <NavLink to="/Faq">FAQ</NavLink>
         </button>
       </nav>
     </nav>

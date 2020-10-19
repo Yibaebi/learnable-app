@@ -111,6 +111,9 @@ p {
   .desktop-hidden {
     display: none;
   }
+  #desktop-hidden{
+    display: none;
+  }
 }
 
 
@@ -118,8 +121,14 @@ p {
   body {
     width: 100vw;
   }
-
+  #mobile-hidden{
+    display: none;
+  }
   .mobile-hidden {
     display: none;
   }
+}
+
+a:active, a:visited{
+  color: #F5772F;
 }
