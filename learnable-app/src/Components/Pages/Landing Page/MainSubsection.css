@@ -64,34 +64,74 @@
 
 @media only screen and (min-width: 376px) {
   .main-subsection-container {
-    height: 780px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #FFFFFF;
+
   }
 
   .main-subsection-container-reverse {
-    height: 780px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    background-color: transparent;
   }
 
-  .main-subsection-container-reverse .section-image {
+  .section-image {
+    padding-left: 5%;
+    width: 45%;
+  }
+
+  .section-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-subsection {
+    padding: 5% 0;
+    padding-left: 5%;
+    width: 45%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-subsection p, .main-subsection-container.cadet  p{
+    width: 60%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #273043;
+  }
+
+  .main-subsection h3,  .main-subsection-container.cadet h3 {
+    width: 60%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110.19%;
+    text-transform: capitalize;
+    color: #273043;
+  }
+
+  .main-subsection-container-reverse {
     padding: 50px;
     padding-right: 10px;
   }
 
-  .main-subsection-container .section-image {
+  .main-subsection-container {
     padding: 50px;
     padding-left: 10px;
   }
 
-  .main-subsection h3,
-  .main-subsection-desc h3,
+
   #we-make-people h3,
   #build-software-1 h3 {
     width: 100%;
@@ -106,9 +146,7 @@
     text-transform: capitalize;
   }
 
-  .main-subsection p,
-  #we-make-people p,
-  .main-subsection-desc p {
+  #we-make-people p {
     height: 41px;
     width: 80%;
     color: #273043;
@@ -135,9 +173,8 @@
     text-transform: uppercase;
   }
 
-  .main-subsection button,
-  #build-software-1 button,
-  button {
+  .main-subsection a,
+  #build-software-1 button, button {
     font-family: "Nunito", sans-serif;
     border: none;
     font-size: 15px;
@@ -153,27 +190,21 @@
     text-transform: uppercase;
   }
 
+  .main-subsection button{
+    margin-top: 5%;
+  }
+
   .main-subsection button:hover,
   button:hover {
     opacity: 0.6;
   }
 
   .main-subsection-container.cadet {
-    padding: 0 2rem;
     background: #17255A;
 
   }
 
-  .main-subsection-container.cadet h3 {
-    width: 548.95px;
-    height: 44px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 37px;
-    line-height: 110.19%;
-  }
-
-  .main-subsection-container.cadet p {
+  p {
     font-family: "Nunito", sans-serif;
     font-size: 17px;
     font-style: normal;

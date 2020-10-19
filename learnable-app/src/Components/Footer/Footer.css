@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     #footer {
         height: fit-content;
         padding: 50px 0;
@@ -142,30 +142,34 @@
         opacity: 0.7;
     }
 }
-
+ */
 
 @media screen and (min-width: 376px) {
 #footer {
-    background-color: #FFFFFF;
     font-family: 'Nunito', sans-serif;
-    height: 30.3125rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    color: #273043;
-    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
     padding-top: 5rem;
+    height: fit-content;
 }
 
 #footer-content {
-    display: grid;
-    grid-template-columns: 20% 1fr 1fr;
-    justify-content: center;
-    height: fit-content;
-    padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+    margin-bottom: 3rem;
 }
 
 #footer-nav-buttons {
-    align-self: flex-start;
+    height: 100%;
+    width: 30%;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -175,6 +179,7 @@
     background-color: transparent;
     border: none;
     margin-top: 22.5px;
+    font-weight: 600;
     text-decoration: underline;
     text-transform: uppercase;
     font-style: normal;
@@ -197,7 +202,8 @@
 }
 
 #contact-us {
-    align-self: flex-start;
+    width: 35%;
+    align-self: center;
     justify-self: center;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
@@ -209,7 +215,7 @@
 }
 
 #contact-us p {
-    width: 22.9375em;
+    width: 80%;
 }
 
 #contact-us button,
@@ -218,19 +224,22 @@
 }
 
 #footer-dev-studio {
-    align-self: flex-start;
+    margin-top: 1rem;
+    align-self: center;
     font-family: 'Nunito', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #dev-studio img {
-    height: 13em;
-    width: 13em;
+    height: auto;
     border-radius: 0px;
 }
 
 #dev-studio-text {
+    margin-left: 1rem;
     align-self: flex-end;
 }
 
@@ -246,9 +255,10 @@
 }
 
 #social-media-copyright {
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -260,14 +270,15 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
 }
 
 #copyright {
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -283,6 +294,7 @@
     line-height: 11px;
     letter-spacing: 1.5px;
     text-align: left;
+    margin-top: .3rem;
 }
 
 #copyright a:hover{

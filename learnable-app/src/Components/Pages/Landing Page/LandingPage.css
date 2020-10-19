@@ -139,7 +139,6 @@
     }
 
     #genesys-opportunities {
-        height: 1067px;
         background-color: #FFFFFF;
         display: grid;
         grid-template-rows: 1fr 1fr;
@@ -156,8 +155,7 @@
     }
 
     #hero h1 {
-        height: 157px;
-        width: 654px;
+        width: 50%;
         font-size: 40px;
         font-style: normal;
         font-weight: 900;
@@ -183,27 +181,30 @@
     }
 
     #hero-image {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 10.41% 1fr;
-    }
-
-    #hero-image img:nth-child(2) {
-        width: 100%;
-    }
-
-    #hero-image div {
-        display: flex;
-        padding-top: 70%;
-        justify-content: center;
-    }
-
-    #hero-image div a {
         height: fit-content;
+        width: 100%;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
+    #hero-image img:nth-child(1) {
+        width: 100%;
+        height: auto;
+    }
+    #hero-image img:nth-child(2) {
+        width: 90%;
+        height: auto;
+    }
+
+    #hero-image div:nth-child(1) {
+        padding-top: 5%;
+    }
+
+    
 
     .service-deliveries-container {
-        height: 780px;
+        padding: 2%;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -218,6 +219,7 @@
     .service-deliveries-container h3 {
         align-self: center;
         width: 460px;
+        text-align: center;
         height: 132px;
         font-style: normal;
         font-weight: 900;

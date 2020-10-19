@@ -16,7 +16,6 @@ function Subscribe() {
           <a href="/privacy-policy" className="mobile-hidden"> View Privacy Policy </a>
         </div>
         <button type="submit"> SUBSCRIBE </button>
-        <a href="/privacy-policy" className="desktop-hidden"> View Privacy Policy </a>
       </form>
     </div>
   </section>

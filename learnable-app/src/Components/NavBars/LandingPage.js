@@ -53,7 +53,7 @@ class LandingNavBar extends React.Component {
           </section>
           <section id="dev-studio" className="mobile-hidden">
             <p>build a product with</p>
-            <button>devstudio</button>
+            <button><a href="#">devstudio</a></button>
           </section>
         </nav>
         <nav className="mobile-nav-links" id="desktop-hidden">

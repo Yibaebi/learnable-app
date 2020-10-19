@@ -49,18 +49,7 @@ class LandingPage extends React.Component {
                     Genesys provides opportunities for young Nigerian techies
                     and opportunities to grow and innovate.
                   </h1>
-                  <p className="mobile-hidden">
-                    We understand that opportunities are scarce in these parts.
-                    We are either creating or exposing our people to these
-                    opportunities.
-                  </p>
-                  <div className="desktop-hidden">
-                    <img
-                      src={require("../../../Images/Mobile - landing/Rectangle 36.png")}
-                      alt="Go down"
-                    />
-                  </div>
-                  <p className="desktop-hidden">
+                  <p>
                     We understand that opportunities are scarce in these parts.
                     We are either creating or exposing our people to these
                     opportunities.
@@ -90,7 +79,7 @@ class LandingPage extends React.Component {
                 buttonTitle={buttonTitle[0]}
               /> */}
 
-              <section className="main-subsection-container" id="mobile-hidden">
+              <section className="main-subsection-container">
                 <div className="section-image">
                   <img
                     src={require("../../../Images/Landing page/Photo 3.jpg")}
@@ -137,24 +126,6 @@ class LandingPage extends React.Component {
                   </button>
                 </div>
               </section>
-
-              {/* <MainSubsection
-                className={className[1]}
-                header={header[1]}
-                text={text[1]}
-                src={require("../../../Images/Mobile - landing/Photo-1.png")}
-                alt={alt[1]}
-                buttonTitle={buttonTitle[0]}
-              /> */}
-
-              {/* <MainSubsection
-                className={className[0]}
-                header={header[2]}
-                text={text[2]}
-                src={require("../../../Images/Mobile - landing/Photo-1.png")}
-                alt={alt[2]}
-                buttonTitle={buttonTitle[0]}
-              /> */}
               <section className="service-deliveries-container">
                 <div className="service-deliveries">
                   <figure id="fig-1">

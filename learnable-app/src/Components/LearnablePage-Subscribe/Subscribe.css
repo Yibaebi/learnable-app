@@ -1,4 +1,4 @@
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     #subscribe-container {
         width: 100%;
         height: fit-content;
@@ -53,7 +53,6 @@
     }
 
     ::placeholder {
-        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #17255A;
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -62,16 +61,16 @@
         letter-spacing: 1.5px;
         text-align: left;
         opacity: 1;
-        /* Firefox */
+        
     }
 
     :-ms-input-placeholder {
-        /* Internet Explorer 10-11 */
+        
         color: #17255A;
     }
 
     ::-ms-input-placeholder {
-        /* Microsoft Edge */
+      
         color: #17255A;
     }
 
@@ -111,36 +110,47 @@
         
     }
 
-}
+} */
 
 @media only screen and (min-width: 376px) {
     #subscribe-container {
         background-color: #FFFFFF;
         width: 100%;
-        height: 18em;
-        display: grid;
-        grid-template-columns: 12% 1fr;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: grey;
+
     }
 
     #subscribe-container a:first-child {
-        justify-self: center;
         align-self: center;
+        justify-self: center;
+        margin: 0 2.5%;
+        width: 5%;
     }
 
     .subscribe-section {
-        display: grid;
-        grid-template-columns: 60% 1fr;
-        justify-content: center;
+        padding-left: 3em;
+        padding: 5% 0;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
         align-content: center;
         background-color: #EAC435;
     }
 
     #subscribe-section-landing {
         background-color: #03CEA4;
+        flex-wrap: wrap;
     }
 
     .subscribe-section h2 {
-        width: 70%;
+        height: 105px;
+        width: 35%;
         height: auto;
         font-family: 'Roboto', sans-serif;
         font-size: 1.8rem;
@@ -154,6 +164,7 @@
     }
 
     #email-privacy {
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -174,7 +185,7 @@
     }
 
     #email-privacy input {
-        width: 70%;
+        width: 100%;
         font-size: 10px;
         background-color: transparent;
         border: none;
@@ -206,18 +217,25 @@
     }
 
     #subscribe-form {
-        display: grid;
-        grid-template-columns: 60% 1fr;
+        display: flex;
+        width: 50%;
+        padding: .5rem 0;
+        height: 100%;
+        flex-wrap: wrap;
+        align-self: center;
+        justify-content: space-evenly;
     }
 
     #subscribe-form button {
+        margin: 1rem 0;
         border: 1px solid #17255A;
         box-sizing: border-box;
         color: #17255A;
         height: 36px;
-        width: 108px;
+        padding: 10px 12px;
         border-radius: 4px;
         align-self: center;
+        text-decoration: none;
         background-color: transparent;
     }
 }
@@ -225,9 +243,11 @@
 #subscribe-section-landing #subscribe-form button:hover {
     color: #03CEA4;
     background-color: #17255A;
+    opacity: 1;
 }
 
 #subscribe-form button:hover {
     color: #EAC435;
     background-color: #17255A;
+    opacity: 1;
 }

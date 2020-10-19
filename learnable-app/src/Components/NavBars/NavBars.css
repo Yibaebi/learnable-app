@@ -1,5 +1,5 @@
 @media only screen and (max-width: 375px) {
-    .mobile-nav-links{
+    .mobile-nav-links {
         background-color: grey;
         height: 66px;
         width: 100vw;
@@ -8,7 +8,7 @@
         justify-content: space-around;
         align-items: center;
     }
-    
+
     .nav-links {
         height: 100vh;
         width: 240px;
@@ -48,12 +48,14 @@
         text-decoration-line: underline;
         text-transform: uppercase;
     }
+
     .landing-nav-links ul a {
         font-size: 15px;
         text-decoration: none;
         color: #273043;
     }
-    .landing-nav-links img{
+
+    .landing-nav-links img {
         align-self: flex-end;
     }
 }
@@ -61,20 +63,25 @@
 @media only screen and (min-width: 376px) {
     .nav-links {
         background-color: #FFFFFF;
-        display: grid;
-        grid-template-columns: 15% 40% 40%;
-        padding: .3em;
-        height: 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: .4em;
+        align-items: center;
         font-family: 'Nunito', sans-serif;
     }
 
     .landing-nav-links {
+        height: 100%;
+        width: 50%;
+        margin-right: 10%;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
     }
 
-    .nav-links a{
+    .nav-links a {
         align-self: center;
         justify-self: center;
     }
@@ -109,25 +116,19 @@
     }
 
     #dev-studio {
-        align-self: center;
-        justify-self: flex-end;
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 16.8125em;
-        height: 2.25em;
+        height: 100%;
     }
 
     #dev-studio button {
         height: 100%;
-        padding: 0px 10px 0px 12px;
         border: 1px solid #17255A;
-        text-transform: uppercase;
-        background-color: white;
+        box-sizing: border-box;
         border-radius: 4px;
-        color: black;
-        text-decoration: none;
-        font-size: 14px;
+        padding: 10px 12px;
     }
 
     #dev-studio p {
@@ -138,6 +139,17 @@
         line-height: 162%;
         letter-spacing: 0.4px;
         color: #273043;
+    }
+
+    #dev-studio button a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #17255A;
     }
 
     /* Learnable Nav Links */
@@ -151,21 +163,25 @@
         width: 100%;
         font-family: 'Nunito', sans-serif;
         background: #17255A;
-        height: 3rem;
+        height: fit-content;
+        padding: .7em;
         list-style-type: none;
         display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
 
     .learnable-nav-links button {
+        height: 100%;
         margin: 0em 1em;
         background-color: transparent;
         border: none;
     }
 
     .learnable-nav-links a {
+        height: 100%;
         letter-spacing: 1.25px;
         text-decoration: none;
         text-decoration: underline;

@@ -1,6 +1,7 @@
 import React from "react";
 import FooterImage from "../../Images/Learnable Page/Footer (Learnable Page).png";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,16 +9,16 @@ function Footer() {
       <div id="footer-content">
         <section id="footer-nav-buttons">
           <button>
-            <a href="/Build">Build Software</a>
+            <NavLink to="/Software">Build Software</NavLink>
           </button>
           <button>
-            <a href="/Design"></a>Design Different
+            <NavLink to="/Product">Design Different</NavLink>
           </button>
           <button>
-            <a href="/Apply-knowledge"></a>Apply Your Knowledge
+            <NavLink to="/Apply">Apply Your Knowledge</NavLink>
           </button>
           <button>
-            <a href="/Faq"></a>FAQ
+            <NavLink to="/Faq">FAQ</NavLink>
           </button>
         </section>
         <section id="contact-us" className="mobile-hidden">
@@ -26,7 +27,7 @@ function Footer() {
             Expressway, Centenary City, Enugu. Nigeria.
           </p>
           <button>
-            <a href="/Faq"></a>Get in touch
+            <NavLink to="#">Get in touch</NavLink>
           </button>
         </section>
         <section id="footer-dev-studio">
@@ -37,47 +38,47 @@ function Footer() {
               our product team
             </p>
             <button>
-              <a href="#"></a>Head to DevStudio
+              <NavLink to="#">Head to DevStudio</NavLink>
             </button>
           </div>
         </section>
-        <section id="contact-us" className="desktop-hidden">
+        {/* <section id="contact-us" className="desktop-hidden">
           <p>
             Our Local Campus center: Kilometer 7, Enugu/Port Harcourt,
             Expressway, Centenary City, Enugu. Nigeria.
           </p>
           <button>
-            <a href="/Faq"></a>Get in touch
+            <NavLink to="/Faq"></a>Get in touch
           </button>
-        </section>
+        </section> */}
       </div>
       <div id="social-media-copyright">
         <section id="social-media-container">
-          <a href="#">
+          <NavLink to="#">
             <img src={require("../../Icons/Vector.svg")} alt="facebook" />
-          </a>
-          <a href="#">
+          </NavLink>
+          <NavLink to="#">
             <img src={require("../../Icons/linkedin 1.svg")} alt="linkedin" />
-          </a>
-          <a href="#">
+          </NavLink>
+          <NavLink to="#">
             <img src={require("../../Icons/instagram 1.svg")} alt="instagram" />
-          </a>
-          <a href="#">
+          </NavLink>
+          <NavLink to="#">
             <img src={require("../../Icons/Vector3.svg")} alt="vimeo" />
-          </a>
-          <a href="#">
+          </NavLink>
+          <NavLink to="#">
             <img src={require("../../Icons/Vector4.svg")} alt="twitter" />
-          </a>
-          <a href="#">
+          </NavLink>
+          <NavLink to="#">
             <img
               src={require("../../Icons/youtube-logotype 1.svg")}
               alt="youtube"
             />
-          </a>
+          </NavLink>
         </section>
         <section id="copyright">
-          <a href="#">&copy; Genesys 2020</a>
-          <a href="#">Privacy Statement</a>
+          <NavLink to="#">&copy; Genesys 2020</NavLink>
+          <NavLink to="#">Privacy Statement</NavLink>
         </section>
       </div>
     </footer>
