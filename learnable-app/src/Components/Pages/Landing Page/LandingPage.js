@@ -4,6 +4,7 @@ import LandingFooter from "../../Footer/Footer";
 import "./LandingPage.css";
 import MainSubsection from "./MainSubsection";
 import "./MainSubsection.css";
+import HamburgerMenu from "../../NavBars/HamburgerMenu";
 
 
 class LandingPage extends React.Component {
@@ -28,21 +29,18 @@ class LandingPage extends React.Component {
         "The business environment is harsh for early-stage businesses. We can help you rise above it all.",
         "We work with the most amazing people our industry has to offer. They are really passionate about making a difference",
       ],
-      src: [
-        require("../../../Images/Landing page/Photo 3.jpg"),
-        require("../../../Images/Landing page/Photo 2.jpg"),
-        require("../../../Images/Landing page/Photo 1.jpg"),
-        require("../../../Images/Landing page/Photo.jpg"),
-      ],
 
       alt: ["Learnable", "Agora", "StartZone"],
       buttonTitle: ["Learn More", "See Team"],
     };
   }
   render() {
-    const { className, header, text, src, alt, buttonTitle } = this.state;
+    const { className, header, text, alt, buttonTitle } = this.state;
     return (
         <div className="learnableapp-page">
+          <header>
+            <HamburgerMenu />
+          </header>
           <main className="main-container" id="main-landing-page-container">
             <section id="landing-main-body">
              <div id="hero">
