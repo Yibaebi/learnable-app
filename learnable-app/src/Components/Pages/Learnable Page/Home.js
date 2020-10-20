@@ -121,7 +121,7 @@ class LearnableHome extends React.Component {
     );
 
     return (
-      <div>
+      <div className="learnable-app-page">
         <header>
           <LandingNavBar />
         </header>

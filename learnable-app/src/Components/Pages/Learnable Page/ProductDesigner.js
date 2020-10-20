@@ -11,26 +11,25 @@ class SoftwareDeveloper extends React.Component {
         <header>
           <LearnableNavBar />
         </header>
-        <main className="software-main">
+        <main className="software-main mobile-hidden">
           <section className="software-main-container">
             <section id="learnable-hero">
               <div id="learnable-hero-text">
-                <h1>The Learnable Software Developer</h1>
+                <h1>The Learnable Product Designer</h1>
                 <p>
-                  Creativity means a lot to us. So we look for people who can
-                  think both logistically and artistically, and who know that
-                  limits are made to be pushed. We value skill and aptitude, but
-                  we honor those who care about working with their team to add
-                  the Genesys flavour to every project.
+                  At Genesys, you'll be exposed to every discipline in our
+                  creative process – UX, UI, interaction design, and
+                  copywriting. You’ll be part of a dynamic team that's made up
+                  of like-minded, talented people. You'll work hard with them to
+                  create things that will amaze everyone everywhere.
                 </p>
                 <p>
-                  As a developer, being part of the team exposes you to a range
-                  of diverse, like-minded talented people who are sure to make
-                  the experience fun for you. You’ll get a shot at building
-                  amazing things, developing yourself, learning on the job,
-                  while exchanging healthy jokes and having random hangouts once
-                  in a while.
+                  In addition to your team projects, you’ll be lending a hand to
+                  the creative team. Participating in brainstorm sessions,
+                  building winning pitches, preparing assets, and design
+                  scriptures for productions, you'll be in the thick of it all.
                 </p>
+                <p> Oh, and you’ll make amazing friends while you're at it!</p>
               </div>
               <div className="image-cutout" id="learnable-hero-image">
                 <img
@@ -83,8 +82,77 @@ class SoftwareDeveloper extends React.Component {
               </div>
             </section>
           </section>
-          <Subscribe />
         </main>
+        <main className="software-main desktop-hidden">
+          <section className="software-main-container">
+            <section id="learnable-hero">
+              <div id="learnable-hero-text">
+                <div id="learnable-hero-image">
+                  <img
+                    src={require("../../../Mobile Images/Learnable Software group/Group 92.png")}
+                    alt="profile"
+                  />
+                </div>
+                <h3>The Learnable Product Designer</h3>
+                <p>
+                  At Genesys, you'll be exposed to every discipline in our
+                  creative process – UX, UI, interaction design, and
+                  copywriting. You’ll be part of a dynamic team that's made up
+                  of like-minded, talented people. You'll work hard with them to
+                  create things that will amaze everyone everywhere.
+                </p>
+                <p>
+                  In addition to your team projects, you’ll be lending a hand to
+                  the creative team. Participating in brainstorm sessions,
+                  building winning pitches, preparing assets, and design
+                  scriptures for productions, you'll be in the thick of it all.
+                </p>
+                <p> Oh, and you’ll make amazing friends while you're at it!</p>
+              
+              </div>
+            </section>
+            <h4 id="learnable-hero-quote">
+              “You are someone people can count on. Every day, you come in ready
+              to make great things happen.”
+            </h4>
+            <section id="we-expect">
+              <div id="we-expect-image-container">
+                <img
+                  src={require("../../../Mobile Images/Learnable Software group/Photo.png")}
+                  alt="profile"
+                />
+              </div>
+              <div id="we-expect-text">
+                <h3>We expect you to…</h3>
+                <p>Play nice with other people. Love to code.</p>
+                <p>
+                  Be an actively engaging person. That means you are present,
+                  motivated, and social. You know how to communicate effectively
+                  with your teammates.
+                </p>
+                <p>
+                  You understand the basics of programming and object-oriented
+                  design and development.
+                </p>
+                <p>
+                  Have an eye for detail. Your keen observation helps you catch
+                  discrepancies and fix them quickly.
+                </p>
+                <p>
+                  Be innately curious. Your love for technology is insatiable,
+                  so you’re always researching and experimenting. Learning new
+                  technical skills while on the job is something you look
+                  forward to.
+                </p>
+                <p>
+                  Appreciate good design. You want to make something that
+                  doesn't just work flawlessly but looks amazing.
+                </p>
+              </div>
+            </section>
+          </section>
+        </main>
+        <Subscribe />
         <Footer />
       </div>
     );
