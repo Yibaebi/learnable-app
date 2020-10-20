@@ -1,5 +1,7 @@
-/* @media only screen and (max-width: 375px) {
-  .main-subsection-container, .main-subsection-container-reverse {
+@media only screen and (max-width: 375px) {
+
+  .main-subsection-container,
+  .main-subsection-container-reverse {
     height: 629px;
     width: 100vw;
     display: flex;
@@ -45,6 +47,7 @@
   }
 
   .main-subsection button,
+  .main-subsection-container a,
   button {
     font-family: "Nunito", sans-serif;
     border: none;
@@ -60,7 +63,7 @@
     background-color: transparent;
     text-transform: uppercase;
   }
-} */
+}
 
 @media only screen and (min-width: 376px) {
   .main-subsection-container {
@@ -69,7 +72,6 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #FFFFFF;
-
   }
 
   .main-subsection-container-reverse {
@@ -101,7 +103,8 @@
     justify-content: space-around;
   }
 
-  .main-subsection p, .main-subsection-container.cadet  p{
+  .main-subsection p,
+  .main-subsection-container.cadet p {
     width: 60%;
     font-style: normal;
     font-weight: normal;
@@ -111,7 +114,8 @@
     color: #273043;
   }
 
-  .main-subsection h3,  .main-subsection-container.cadet h3 {
+  .main-subsection h3,
+  .main-subsection-container.cadet h3 {
     width: 60%;
     font-style: normal;
     font-weight: 900;
@@ -174,7 +178,8 @@
   }
 
   .main-subsection a,
-  #build-software-1 button, button {
+  #build-software-1 button,
+  button {
     font-family: "Nunito", sans-serif;
     border: none;
     font-size: 15px;
@@ -190,7 +195,7 @@
     text-transform: uppercase;
   }
 
-  .main-subsection button{
+  .main-subsection button {
     margin-top: 5%;
   }
 

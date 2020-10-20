@@ -1,6 +1,5 @@
-/* @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .main-container {
-        background-color: #EEEEEE;
         height: fit-content;
         width: 100vw;
         display: flex;
@@ -24,7 +23,6 @@
 
     #hero h1 {
         width: 347px;
-        height: 308px;
         font-style: normal;
         font-weight: 900;
         font-size: 40px;
@@ -127,7 +125,7 @@
         text-transform: capitalize;
         color: #FFFFFF;
     }
-} */
+}
 
 @media only screen and (min-width: 376px) {
     .desktop-hidden {

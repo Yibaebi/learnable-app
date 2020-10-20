@@ -1,4 +1,4 @@
-/* @media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     #subscribe-container {
         width: 100%;
         height: fit-content;
@@ -110,7 +110,7 @@
         
     }
 
-} */
+}
 
 @media only screen and (min-width: 376px) {
     #subscribe-container {
@@ -120,7 +120,6 @@
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        background-color: grey;
 
     }
 
