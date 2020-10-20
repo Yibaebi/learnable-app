@@ -69,6 +69,7 @@
         padding: .4em;
         align-items: center;
         font-family: 'Nunito', sans-serif;
+        position: sticky;
     }
 
     .landing-nav-links {
@@ -157,6 +158,7 @@
         position: fixed;
         top: 0;
         width: 100%;
+        
     }
 
     .learnable-nav-links {

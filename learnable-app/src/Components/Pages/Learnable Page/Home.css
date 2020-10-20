@@ -1,19 +1,23 @@
 .learnable-homepage {
-    background-color: #EEEEEE;
     height: fit-content;
-    padding-bottom: 0;
+    margin: 0em;
+    padding: 0;
 }
 
 #notification {
     background: #EAC435;
-    height: 15.125rem;
+    height: fit-content;
+    width: 100%;
+    margin-top: 2.5rem;
 }
 
 #notification-main {
+    
     color: #17255A;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -25,8 +29,8 @@
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0.25px;
-    height: 2.125rem;
-    width: 31.8125rem;
+    height: fit-content;
+    width: 70%;
 }
 
 #notification-1 h4,
@@ -40,17 +44,21 @@
     text-align: left;
 }
 
-#notification-1 {
-    align-self: flex-start;
+#notification-1,
+#notification-2 {
+    align-self: center;
     height: 80%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: flex-start;
-    align-items: center;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #notification-2 {
-    align-self: center;
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 #notification-2 h4 {
@@ -71,7 +79,7 @@
 }
 
 #hero.learnable-homepage {
-    height: 76.5625rem;
+    height: fit-content;
 }
 
 #hero-intro.learnable-homepage-hero h1 {
@@ -83,11 +91,12 @@
     letter-spacing: -1.5px;
     text-align: left;
     font-size: 6rem;
+    width: 50%;
 }
 
 #hero-intro.learnable-homepage-hero p {
     height: 81px;
-    width: 321px;
+    width: 25%;
 }
 
 
@@ -95,7 +104,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: #EEEEEE;
+    background: #EEEEEE;
 }
 
 #learnable-hero-media {
@@ -108,20 +117,21 @@
     padding-top: 40%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     height: 40%;
 }
 
 #learnable-hero-media img:nth-child(2) {
-    height: 460px;
     width: 100%;
+    height: auto;
 }
 
 #explore-options {
     justify-self: flex-end;
     position: absolute;
     left: 55%;
-    top: 41.625rem;
+    top: 820px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -168,13 +178,9 @@
     text-decoration: underline;
 }
 
-#explore-options div:nth-child(1) img {
-    padding-left: .4rem;
-}
-
 #explore-options div:nth-child(1) {
     background: #03CEA4;
-    margin-right: .5rem;
+    /* margin-right: .5rem; */
 }
 
 #explore-options div:nth-child(2) {
@@ -251,38 +257,42 @@
 
 /* We make people great */
 #we-make-people {
-    height: 652px;
+    height: fit-content;
+    padding: 0;
     background-color: #ffffffff;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#we-make-people-desc,
-.main-subsection.eligible {
-    padding-left: 10%;
-    height: 60%;
+#we-make-people-desc {
     align-self: center;
-    justify-self: center;
-    display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-    align-items: center;
-}
-
-.main-subsection.eligible {
-    display: grid;
     height: 50%;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    padding-left: 4rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.main-subsection.eligible h3 {
-    margin: 0;
-    padding: 0;
+#we-make-people-desc p, .main-subsection-container.fun > div:nth-child(1) p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #273043;
 }
 
+#we-make-people-desc h3, .main-subsection-container.fun > div:nth-child(1) h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110.19%;
+    text-transform: capitalize;
+    color: #273043;
+}
 
 
 #we-make-people-desc h3 {
@@ -298,10 +308,19 @@
 
 .main-subsection-container.fun {
     height: fit-content;
-    display: grid;
-    grid-template-columns: 45% 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main-subsection-container.fun > div:nth-child(1){
+    width: 30%;
+    padding-left: 5%;
 }
 
+.main-subsection-container.fun > div:nth-child(2){
+    width: 50%;
+}
 /* Learn from experts */
 #experts-2 {
     height: 100%;
@@ -348,24 +367,28 @@
 }
 
 /* Learn to build */
-.main-subsection-container.build-software {
-    width: 100%;
-    height: fit-content;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 50%);
+.build-software {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 #build-software-1 {
+    align-self: center;
+    padding-left:2.5%; 
+    padding-right: 2.5%; 
+    width: 45%;
     height: 30%;
-    padding: 0 15%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 #build-software-2 {
-    padding: 100px 0;
+    width: 50%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -424,7 +447,7 @@
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     font-family: 'Roboto', sans-serif;
-    width: fit-content;
+    width: 100%;
     height: 26px;
     font-style: normal;
     font-weight: 900;
@@ -434,9 +457,11 @@
     color: #273043;
     border-bottom: 1px solid #CECDCD;
     padding-bottom: 1.2rem;
+    display: flex;
 }
 
 .accordion img {
+    align-self: flex-end;
     margin-left: 1rem;
     margin-bottom: .3rem
 }
@@ -498,6 +523,7 @@
     padding: 2rem;
     padding-top: 0;
 }
+
 .journal-section p {
     width: 156px;
     height: 22px;
@@ -510,14 +536,16 @@
     margin-top: 0px;
 }
 
-.journal-section > button{
+.journal-section>button {
     align-self: flex-start;
-    margin: 60px 0px 86px 150px 
+    margin: 60px 0px 86px 150px
 }
-.journal-section > h2{
+
+.journal-section>h2 {
     align-self: flex-start;
-    margin: 91px 0px 0px 100px 
+    margin: 91px 0px 0px 100px
 }
+
 .journal-item {
     padding-top: 10px;
     margin: 10px;
@@ -526,13 +554,14 @@
     flex-direction: column;
 }
 
-.journal-item h4{
+.journal-item h4 {
     margin: 1rem 1rem;
     margin-left: 0em;
     padding-bottom: 0;
     height: fit-content;
 }
-.journal-copy-copy img{
+
+.journal-copy-copy img {
     width: 90%
 }
 
@@ -546,7 +575,7 @@
 
 /* Mentions */
 
-.mentioned-in{
+.mentioned-in {
     background-color: #FFFEFE;
     display: grid;
     grid-template-columns: 20% 1fr;
@@ -557,12 +586,12 @@
     padding: 70px 0px;
 }
 
-.mentioned-in h4{
+.mentioned-in h4 {
     height: fit-content;
     text-decoration: underline;
 }
 
-.mentioned-in-logos{
+.mentioned-in-logos {
     display: flex;
     height: fit-content;
     display: flex;

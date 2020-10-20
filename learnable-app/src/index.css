@@ -39,13 +39,14 @@ code {
 }
 
 .image-cutout {
+  margin: 50px 0;
+  align-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.image-cutout>img {
-  margin-top: 4rem;
+.image-cutout > img {
   height: 28.25rem;
   width: 28.25rem;
   border-radius: 14.13rem;

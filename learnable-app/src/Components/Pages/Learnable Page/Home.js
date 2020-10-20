@@ -143,7 +143,7 @@ class LearnableHome extends React.Component {
             </div>
           </section>
 
-          <div id="hero" className="learnable-homepage">
+          <div id="hero">
             <section id="hero-intro" className="learnable-homepage-hero">
               <h1>Everything is Learnable</h1>
               <p>
@@ -151,7 +151,7 @@ class LearnableHome extends React.Component {
                 brought to you by Genesys.
               </p>
             </section>
-            <section className="learnable-hero-media">
+             <section className="learnable-hero-media">
               <aside id="explore-options">
                 <div>
                   <h5>
@@ -210,7 +210,7 @@ class LearnableHome extends React.Component {
                 </div>
               </aside>
             </section>
-          </div>
+          </div> 
           <section id="we-make-people">
             <div id="we-make-people-desc">
               <h3>We Make People Great</h3>
@@ -222,12 +222,6 @@ class LearnableHome extends React.Component {
                 young individuals who are passionate about building a career in
                 the software industry.
               </p>
-              <br></br>
-              <br></br>
-              <p>
-                We primarily educate and groom software developers and
-                designers, preparing them for the industry.
-              </p>
             </div>
             <div class="image-cutout">
               <img
@@ -235,7 +229,7 @@ class LearnableHome extends React.Component {
               />
             </div>
           </section>
-          <section className={className[0]} id="transparent">
+         <section className={className[0]} id="transparent">
             <div className="section-image">
               <img
                 src={require("../../../Images/Learnable Page/Photo.png")}
@@ -249,7 +243,7 @@ class LearnableHome extends React.Component {
               <p>{text[1]}</p>
             </div>
           </section>
-          <section className="main-subsection-container build-software">
+          <section className=" build-software">
             <div id="build-software-1">
               <p>For Developers</p>
               <h3>Learn to Build Software the Right Way</h3>
@@ -359,7 +353,7 @@ class LearnableHome extends React.Component {
               <p>{text[5]}</p>
               <p>{text[6]}</p>
             </div>
-            <div className="section-image">
+            <div>
               <img
                 src={require("../../../Images/Learning can be fun (Learnable Page)/Rectangle 17.png")}
                 alt={alt[0]}
@@ -509,7 +503,7 @@ class LearnableHome extends React.Component {
               <h3>{header[4]}</h3>
               <p>{text[8]}</p>
             </div>
-            <div className="section-image">
+            <div>
               <img
                 src={require("../../../Images/Learning doesn't always have to be in (Learnable Page)/Rectangle 17.png")}
                 alt={alt[0]}
