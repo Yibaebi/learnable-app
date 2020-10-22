@@ -1,3 +1,587 @@
+@media screen and (max-width: 375px) {
+    .learnable-homepage {
+        height: fit-content;
+        margin: 0em;
+        padding: 0;
+        background: #EEEEEE;
+    }
+
+    #notification {
+        padding: 40px 0;
+        padding-top: 150px;
+        background: #EAC435;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #notification img{
+        padding: 22px 32px 32px 0px;
+        align-self: flex-end;
+    }
+
+    #notification-main {
+        color: #17255A;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #notification p {
+        width: 347px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #17255A;
+    }
+
+    #notification-1 h4 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 110.19%;
+        text-align: center;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: #17255A;
+        margin: 0;
+    }
+
+    #notification-2 h4 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 110.19%;
+        letter-spacing: 0.5px;
+        text-decoration-line: underline;
+        color: #17255A;
+    }
+
+    #notification-1,
+    #notification-2 {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #notification-2 {
+        margin-top: 30px;
+    }
+
+    #notification-2 a:link,
+    #notification-2 a:visited {
+        font-size: 17px;
+        text-decoration: none;
+        color: #17255A;
+    }
+
+    #notification-2 a:hover {
+        text-decoration: none;
+        color: #EAC435;
+        background-color: #17255A;
+    }
+
+
+    #hero.learnable-homepage {
+        background-color: #EAC435;
+        height: fit-content;
+        width: 100%;
+    }
+
+    #hero-intro {
+        height: fit-content;
+
+    }
+
+    #hero-intro.learnable-homepage-hero h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 110.19%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #17255A;
+        margin: 51px 0px 40px 0px;
+    }
+
+    #hero-intro.learnable-homepage-hero p {
+        width: 347px;
+        height: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #273043;
+        margin: 0px 0px 40px 0px;
+    }
+
+
+    .learnable-hero-media {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #EEEEEE;
+    }
+
+
+    #explore-options {
+        margin: 50px 0px 50px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #explore-options div {
+        height: 170px;
+        width: 170px;
+        border-radius: 85px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #explore-options div p {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #273043;
+        margin: 0;
+        margin-top: 2px;
+    }
+
+    #explore-options div h5 {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin: 0;
+    }
+
+    #explore-options div a {
+        text-decoration: none;
+        color: #17255A;
+        text-decoration: underline;
+    }
+
+    #explore-options div:nth-child(1) {
+        background: #03CEA4;
+    }
+
+    #explore-options div:nth-child(2) {
+        background: #17255A;
+    }
+
+    #explore-options div:nth-child(2) p,
+    #explore-options div:nth-child(2) h5 a {
+        color: #EEEEEE;
+    }
+
+    #hero-statistics {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0;
+    }
+
+    #statistics {
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 44px 0;
+    }
+
+    #hero-statistics .item {
+        background-color: transparent;
+        height: fit-content;
+        width: 134px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero-statistics .item p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #17255A;
+    }
+
+    #hero-statistics .item p:first-of-type {
+        height: 34px;
+        width: 117px;
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #17255A;
+    }
+
+    #hero-statistics .item h3 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 110.19%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: #03CEA4;
+    }
+
+    #we-make-people {
+        padding-top: 40px;
+        height: fit-content;
+        background-color: #ffffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #we-make-people-desc {
+        height: fit-content;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    #we-make-people-desc p,
+    #build-software-1 p,
+    .main-subsection-container-learning>div:nth-child(2) p {
+        text-align: center;
+        width: 345px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        color: #273043;
+    }
+
+    #we-make-people-desc h3,
+    .main-subsection-container.fun>div:nth-child(1) h3 {
+        width: 70%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 110.19%;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: #273043;
+        text-align: center;
+    }
+
+    #white-bg {
+        background-color: white;
+    }
+
+    .main-subsection-container-learning {
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 42px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-subsection-container-learning>div:nth-child(2) {
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-subsection-container-learning>div:nth-child(2) h3,
+    #build-software-1 h3 {
+        width: 90%;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 110.19%;
+        text-align: center;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: #273043;
+    }
+
+    /* Learn from experts */
+
+
+    #experts-2 h2 {
+        align-self: center;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 110.19%;
+        letter-spacing: 0.25px;
+        text-transform: capitalize;
+        color: #273043;
+        text-align: center;
+    }
+
+    #experts-2 p {
+
+        align-self: center;
+        width: 345px;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        color: #273043;
+        text-align: center;
+    }
+
+    .experts {
+        background-color: #EEEEEE;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #experts-1 {
+        margin: 46px 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #experts {
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experts-item {
+        margin-top: 20px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experts-item div {
+        margin-top: 20px;
+        height: 90px;
+        width: 147.71620178222656px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+    }
+
+    .experts-item div p {
+        margin: 6px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #273043;
+    }
+
+    .experts-item h6 {
+        margin: 0px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #273043;
+    }
+
+    /* Learn to build */
+    .build-software {
+        padding: 50px 0px 41px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    #build-software-1 {
+        height: fit-content;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 41px;
+    }
+
+    #build-software-1 p:first-of-type {
+        height: 11px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 110.19%;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #273043;
+    }
+
+    #build-software-1 button {
+        margin-top: 20px;
+    }
+
+    #build-software-2 {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #build-software-2 .item {
+        height: 167.5px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cadet {
+        background-color: #17255A;
+        color: #EEEEEE;
+        height: fit-content;
+    }
+
+    .green {
+        background-color: #03CEA4;
+        color: #EEEEEE;
+    }
+
+    .saffron {
+        background: #EAC435;
+        color: #17255A;
+    }
+
+    .purple {
+        background-color: #2D1E2F;
+        ;
+        color: #EEEEEE;
+    }
+
+    .metal {
+        background-color: #273043;
+        ;
+        color: #FFFEFE;
+    }
+
+    .orange {
+        background: #E13F29;
+        color: #EEEEEE;
+    }
+
+    #build-software-2 .item h4 {
+        width: 70%;
+        height: 52px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 110.19%;
+        text-align: center;
+        text-decoration-line: underline;
+    }
+
+    .main-subsection p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
+        color: white;
+    }
+
+    .main-subsection-container-learning.cadet.fun h3,
+    .main-subsection-container-learning.cadet.fun p {
+        color: white;
+    }
+
+
+    .mentioned-in {
+        background-color: #FFFEFE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: fit-content;
+    }
+
+    .mentioned-in h4 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 110.19%;
+        letter-spacing: 0.5px;
+        color: #273043;
+    }
+
+    .mentioned-in-logos {
+        height: 100.68000030517578px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .mentioned-in-logos img {
+        margin: 20px;
+    }
+
+
+}
+
 @media screen and (min-width: 376px) {
     .learnable-homepage {
         height: fit-content;
@@ -6,14 +590,15 @@
     }
 
     #notification {
+        
         background: #EAC435;
         height: fit-content;
         width: 100%;
-        margin-top: 2.5rem;
+        margin-top: auto;
     }
 
     #notification-main {
-
+        padding-top: 6%;
         color: #17255A;
         width: 100%;
         height: fit-content;
@@ -278,7 +863,7 @@
 
     #we-make-people-desc p,
     .main-subsection-container.fun>div:nth-child(1) p {
-        font-family: Nunito;
+
         font-style: normal;
         font-weight: normal;
         font-size: 17px;

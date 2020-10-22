@@ -9,6 +9,7 @@
     }
 
     #apply-hero {
+        margin-top: 40%;
         display: flex;
         flex-direction: column;
         justify-content: center;

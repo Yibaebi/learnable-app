@@ -1,14 +1,97 @@
-#faq-header{
-    margin-top: 119px;
-    margin-bottom: 119px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media screen and (max-width: 375px) {
+    .accordion {
+        align-self: center;
+        width: 100%;
+        height: 26px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.15px;
+        color: #273043;
+        text-align: center;
+        margin-bottom: 34px;
+        padding-bottom: 31px;
+        border-bottom: 1px solid #CECDCD;
+    }
+
+    .accordion img {
+        align-self: flex-end;
+        margin-left: 1rem;
+        margin-bottom: .3rem
+    }
+
+
+    .active,
+    .accordion:hover {
+        opacity: 0.7;
+    }
+
+
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    .showPanel {
+        padding: 0 18px;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .faq-section {
+        width: 100%;
+    }
+
+    #faq {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #faq-buttons{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #faq button a{
+        color: #03CEA4;
+      }
+      
+    #faq h2 {
+        align-self: center;
+    }
+
+    #faq div {
+        align-self: center;
+    }
+
+    #faq-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
 }
 
-#faq-header h2{
-    height: 100%;
-    align-self: center;
-    justify-self: flex-end;
+@media screen and (min-width: 376px) {
+    #faq-header {
+        margin-top: 119px;
+        margin-bottom: 119px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #faq-header h2 {
+        height: 100%;
+        align-self: center;
+        justify-self: flex-end;
+    }
 }

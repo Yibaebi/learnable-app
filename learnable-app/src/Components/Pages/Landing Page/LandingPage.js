@@ -38,9 +38,7 @@ class LandingPage extends React.Component {
     const { className, header, text, alt, buttonTitle } = this.state;
     return (
         <div className="learnableapp-page">
-          <header>
-            <HamburgerMenu />
-          </header>
+
           <main className="main-container mobile-hidden" id="main-landing-page-container">
             <section id="landing-main-body">
              <div id="hero">

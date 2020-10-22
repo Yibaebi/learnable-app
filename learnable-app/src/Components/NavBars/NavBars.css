@@ -1,26 +1,44 @@
 @media only screen and (max-width: 375px) {
-    .mobile-nav-links {
-        background-color: grey;
-        height: 66px;
-        width: 100vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+    .mobile-nav-links{
+        z-index: 100;
+        height: fit-content;
+        position: fixed;
+        background-color: #ffffff;
+        width: 100%;
+    }
+    #hidden{
+        display: none;
     }
 
-    .nav-links {
+    #unHidden{
+        display: flex;
+    }
+    .links-1{
+        align-self: flex-start;
         height: 100vh;
         width: 240px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 50px;   
+    }
+
+    .links-1 img{
+        padding: 22px 32px 0px 0px;
+        align-self: flex-end;
+    }
+    .links-2 {
+        width: 92%;
+        padding: 4%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .landing-nav-links {
-        padding-right: 29px;
         background-color: #ffffff;
-        height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -28,7 +46,8 @@
     }
 
     .landing-nav-links ul {
-        height: 100%;
+        height: 80%;
+        padding: 10% 0px;
         width: 100%;
         list-style-type: none;
         display: flex;
@@ -38,12 +57,9 @@
     }
 
     .landing-nav-links ul li {
-        font-family: "Nunito";
         font-style: normal;
         font-weight: 600;
         line-height: 110.19%;
-        display: flex;
-        align-items: center;
         letter-spacing: 1.25px;
         text-decoration-line: underline;
         text-transform: uppercase;
@@ -56,20 +72,66 @@
     }
 
     .landing-nav-links img {
-        align-self: flex-end;
+        justify-self: flex-end;
+        align-self: center;
+    }
+    #learnable-nav-container {
+        z-index: 99;
+        width: 100%;
+    }
+
+    .learnable-nav-links {
+        position: fixed;
+        top: 8.5%;
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        background: white;
+        height: fit-content;
+        padding: .7em 0;
+        list-style-type: none;
+        display: flex;
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .learnable-nav-links button {
+        height: 100%;
+        margin: 0em 1em;
+        background-color: transparent;
+        border: none;
+    }
+
+    .learnable-nav-links a {
+        height: 100%;
+        letter-spacing: 1.25px;
+        text-decoration: none;
+        text-decoration: underline;
+        color: #EEEEEE;
+        text-transform: uppercase;
+        align-self: center;
+    }
+
+    .learnable-nav-links a:active,
+    .learnable-nav-links a:hover {
+        color: #EAC435;
     }
 }
 
 @media only screen and (min-width: 376px) {
     .nav-links {
-        background-color: #FFFFFF;
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        background-color: #ffffff;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         padding: .4em;
         align-items: center;
         font-family: 'Nunito', sans-serif;
-        position: sticky;
     }
 
     .landing-nav-links {
@@ -155,8 +217,9 @@
 
     /* Learnable Nav Links */
     #learnable-nav-container {
+        z-index: 100;
         position: fixed;
-        top: 0;
+        top: 10%;
         width: 100%;
     }
 
@@ -165,7 +228,7 @@
         font-family: 'Nunito', sans-serif;
         background: #17255A;
         height: fit-content;
-        padding: .7em;
+        padding: .7em 0;
         list-style-type: none;
         display: flex;
         height: fit-content;

@@ -96,6 +96,20 @@ class Faq extends React.Component {
       ],
     };
   }
+  handleClick = (e) => {
+    alert(e.target);
+    let newFaq = this.state.faq.forEach((item) => {
+      if (item.id === +e.target.key) {
+        item.panel = "showPanel";
+      } else {
+        item.panel = "panel";
+      }
+    });
+
+    this.setState({
+      faq: newFaq,
+    });
+  };
   render() {
     const { faq } = this.state;
 
@@ -115,7 +129,7 @@ class Faq extends React.Component {
         <header>
           <LearnableNavBar />
         </header>
-        <main className="faq-main">
+        <main className="faq-main mobile-hidden">
           <section className="faq-main-container">
             <section className="main-subsection-container faq-section">
               <div id="faq">
@@ -130,8 +144,22 @@ class Faq extends React.Component {
               </div>
             </section>
           </section>
-          <Subscribe />
         </main>
+        <main className="faq-main desktop-hidden">
+            <section className="faq-section">
+              <div id="faq">
+                <div id="faq-header">
+                  <h2>FAQ</h2>
+                  <img
+                    src={require("../../../Mobile Images/Faq Picture.png")}
+                    alt="expand"
+                  />
+                </div>
+                <div id="faq-buttons">{faqButtons}</div>
+              </div>
+          </section>
+        </main>
+        <Subscribe />
         <Footer />
       </div>
     );

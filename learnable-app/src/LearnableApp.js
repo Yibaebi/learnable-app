@@ -17,7 +17,8 @@ function LearnableApp() {
       <div className="App">
         <header className="App-header">
           <LandingNavBar />
-          <div>
+        </header>
+        <div>
             <Switch>
               <Route exact path="/" component={LandingPage} />
               <Route exact path="/Learnablehome" component={LearnableHome} />
@@ -28,7 +29,6 @@ function LearnableApp() {
               <Route path="/Faq" component={Faq} />
             </Switch>
           </div>
-        </header>
       </div>
     </BrowserRouter>
   );

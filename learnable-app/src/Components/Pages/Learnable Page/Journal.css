@@ -13,13 +13,14 @@
     }
 
     #journal-intro>div {
+        margin-top: 40%;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #journal-intro h3 {
+    #journal-intro h1 {
         font-style: normal;
         font-weight: 900;
         font-size: 40px;
@@ -57,10 +58,12 @@
 
     .journal-section {
         width: 100%;
-        background-color: white;
+        background: #EEEEEE;
         height: fit-content;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .journal-copy-copy {
